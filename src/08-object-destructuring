@@ -1,0 +1,10 @@
+const user = {
+    username : 'diego',
+    email : 'diegoalejandro.solano@hotmail.com',
+    age : 31,
+    ranking : 9
+}
+
+const {username, email, age} = user
+
+console.log(`${username} is ${age} and his email is ${email}`)
